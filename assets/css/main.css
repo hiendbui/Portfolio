@@ -3337,6 +3337,7 @@ input, select, textarea {
 	
 
 	svg {
+		width:15%;
 		 max-width: 5.5em;
 		 display: inline-grid;
 		 margin:10px;

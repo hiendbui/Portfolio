@@ -2178,12 +2178,12 @@ input, select, textarea {
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			background: rgba(0, 0, 0, 0.438);
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.2;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2235,6 +2235,7 @@ input, select, textarea {
 				top: 50%;
 				width: 1em;
 				z-index: 1;
+				display:none;
 			}
 
 			.image.icon:hover:before {
@@ -2242,6 +2243,7 @@ input, select, textarea {
 				-webkit-transform: translateZ(1em);
 				-ms-transform: translateZ(1em);
 				transform: translateZ(1em);
+				display: inline-block;
 			}
 
 			.image.icon:hover:after {
@@ -2271,9 +2273,14 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
+			display:inline-block;
 		}
 
 		.icon > .label {
+			display: none;
+		}
+
+		.icon >* {
 			display: none;
 		}
 
@@ -2288,6 +2295,10 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+
+		/* .icon:hover {
+			display:inline-block;
+		} */
 
 /* List */
 
@@ -2614,6 +2625,7 @@ input, select, textarea {
 	.feature {
 		position: relative;
 		height: 20em;
+		width: 100%;
 	}
 
 		.feature:after {
@@ -3306,4 +3318,12 @@ input, select, textarea {
 		text-transform:none;
 		color: #6e6e6e;
 		color: rgb(0, 0, 0)/* font-family: ""; */
+	}
+
+	h3, h4{
+		text-transform:none;
+	}
+
+	h4 {
+		font-size: 14px;
 	}

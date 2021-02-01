@@ -1,1 +1,1 @@
-<a href="hiendbui.com">Portfolio Link</a>
+<a href="www.hiendbui.com" target='_blank'>Portfolio Link</a>

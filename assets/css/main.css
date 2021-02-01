@@ -103,7 +103,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #6e6e6e;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'NimbusSansExt', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -3326,7 +3326,7 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 14px;
+		font-size: 13.2px;
 	}
 
 	.devicons {
